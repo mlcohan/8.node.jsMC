@@ -21,30 +21,54 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None"){
   return(
-  `# license
+  `## license
   
-  This is the License: ${license}`
+  The license being used is: ${license}`
 
   )}
 
   return ''
   }
 
+  // const TOC = `## Table of Contents` = () => {
+
+  // if (data.installation !== '') { TOC += `
+  // * [Installation](#installation)` };
+
+  // if (data.usage !== '') { TOC += `
+  // * [Usage](#usage)` };
+
+  // if (data.contributing !== '') { TOC += `
+  // * [Contributing](#contributing)` };
+
+  // if (data.tests !== '') { TOC += `
+  // * [Tests](#tests)` };
+  // }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  # ${data.title}
-  # ${data.description}
-  # ${data.contents}
-  # ${data.usage}
-  # ${data.license}
+
+  
   ${renderLicenseBadge(data.license)}
+  ## Description
+   ${data.description}
+  ## Table of Contents
+   ${data.contents}
+  ## Installation
+  ${data.installation}
+  ## Usage 
+  ${data.usage}
+  ## License
+   ${data.license}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
-  # ${data.contributing}
-  # ${data.tests}
-  # ${data.questions}
-
+  ## Contributing
+   ${data.contributing}
+  ## Tests
+   ${data.tests}
+  ## Questions?
+  github.com/${data.username}
+   ${data.questions}
 `; 
 
 }

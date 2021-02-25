@@ -1,15 +1,24 @@
 # hi
-  # hi
-  # my
-  # name 
-  # mary
-  # and 
-  ![GitHub license](https://img.shields.io/badge/license-and -blue.svg)
-   missing something :)
-  # license
   
-  This is the License: and 
-  # im
-  # really
-  # cool
-
+  ![GitHub license](https://img.shields.io/badge/license-afl-3.0-blue.svg)
+  ## Description
+   m
+  ## Table of Contents
+   
+  ## Installation
+  
+  ## Usage 
+  
+  ## License
+   afl-3.0
+   missing something :)
+  ## license
+  
+  The license being used is: afl-3.0
+  ## Contributing
+   
+  ## Tests
+   
+  ## Questions?
+  github.com/mlcohan
+   
