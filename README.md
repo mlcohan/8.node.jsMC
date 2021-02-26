@@ -1,41 +1,32 @@
 
-  # readme generator
+# 8.node.jsMC
 
-  ## Description
-    makes a readme
+## About
+    
+This is a command-line application that dynamically generates a professional README.md file from a user's input by using the [Inquirer package](https://www.npmjs.com/package/inquirer)
 
    ## Table of Contents
-   * [Installation](#installation)
    * [Usage](#usage)
    * [License](#license)
    * [Contributing](#contributing)
    * [Tests](#tests)
    * [Questions](#questions)
-    
-  ## Installation
-  node
 
-  ## Usage 
-  node index.js
+## Usage
+- If  user wants to generate a README, they will use the terminal to install node
 
-  ## License
-  The license being used is apache-2.0. <br>
-  ![License: apache-2.0](https://img.shields.io/badge/License-apache-2.0-blue.svg) <br>
-   missing something <br>
-  
-  The license being used is: apache-2.0
-   
+-  Then the user will want to run 'node index.js' in the terminal
 
-  ## Contributing
-   idk
+- The user will then be prompted with questions for them to fill in the information provided in the rendered Table of Contents regarding the projects Description, Installation, Usage, License, Contributing, Tests and Questions
 
-  ## Tests
-   idk
+-When the user has completed the questions, they will be given the message "Success" and a newREADME.md will appear
 
-  ## Questions?
-   
-  Check out my GitHub @ <br>
-  github.com/mlcohan
+## Usage Example Video
 
-  Contact Me: <br>
-   mary.cohan@gmail.com
+
+
+## Links to gitHub
+
+https://mlcohan.github.io/9.node.jsMC/
+
+
