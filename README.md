@@ -1,24 +1,41 @@
-# hi
-  
-  ![GitHub license](https://img.shields.io/badge/license-afl-3.0-blue.svg)
+
+  # readme generator
+
   ## Description
-   m
-  ## Table of Contents
-   
+    makes a readme
+
+   ## Table of Contents
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [License](#license)
+   * [Contributing](#contributing)
+   * [Tests](#tests)
+   * [Questions](#questions)
+    
   ## Installation
-  
+  node
+
   ## Usage 
-  
+  node index.js
+
   ## License
-   afl-3.0
-   missing something :)
-  ## license
+  The license being used is apache-2.0. <br>
+  ![License: apache-2.0](https://img.shields.io/badge/License-apache-2.0-blue.svg) <br>
+   missing something <br>
   
-  The license being used is: afl-3.0
+  The license being used is: apache-2.0
+   
+
   ## Contributing
-   
+   idk
+
   ## Tests
-   
+   idk
+
   ## Questions?
-  github.com/mlcohan
    
+  Check out my GitHub @ <br>
+  github.com/mlcohan
+
+  Contact Me: <br>
+   mary.cohan@gmail.com

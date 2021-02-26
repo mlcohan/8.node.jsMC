@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![License: ${license}](https://img.shields.io/badge/License-${license}-blue.svg)`
   }
   return ''
 }
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return ` missing something :)`
+    return `http://www.somethin.org/licenses/${license}`
   }
   return ''
 }
@@ -21,53 +21,55 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None"){
   return(
-  `## license
-  
-  The license being used is: ${license}`
+  `
+  The license being used is: ${license}
+  ${renderLicenseBadge(license)}
+  ${renderLicenseLink(license)}
+  `
 
   )}
 
   return ''
   }
 
-  // const TOC = `## Table of Contents` = () => {
 
-  // if (data.installation !== '') { TOC += `
-  // * [Installation](#installation)` };
-
-  // if (data.usage !== '') { TOC += `
-  // * [Usage](#usage)` };
-
-  // if (data.contributing !== '') { TOC += `
-  // * [Contributing](#contributing)` };
-
-  // if (data.tests !== '') { TOC += `
-  // * [Tests](#tests)` };
-  // }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
-  
-  ${renderLicenseBadge(data.license)}
   ## Description
-   ${data.description}
-  ## Table of Contents
-   ${data.contents}
+    ${data.description}
+
+   ## Table of Contents
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [License](#license)
+   * [Contributing](#contributing)
+   * [Tests](#tests)
+   * [Questions](#questions)
+    
   ## Installation
   ${data.installation}
+
   ## Usage 
   ${data.usage}
+
   ## License
-   ${data.license}
-  ${renderLicenseLink(data.license)}
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)} 
+
   ## Contributing
    ${data.contributing}
+
   ## Tests
    ${data.tests}
+
   ## Questions?
+   
+  Check out my GitHub @ <br>
   github.com/${data.username}
+
+  Contact Me: <br>
    ${data.questions}
 `; 
 
