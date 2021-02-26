@@ -1,10 +1,10 @@
 
-  # title
+  # README generator
 
   ![License](https://img.shields.io/badge/license-apache2.0-blue)
 
   ## Description
-    description
+    creates a README.md
 
 
    ## Table of Contents
@@ -16,10 +16,10 @@
    * [Questions](#questions)
     
   ## Installation
-  fda
+  node i
 
   ## Usage 
-  dsa
+  node index.js
 
   ## License
   
@@ -27,15 +27,15 @@
    
 
   ## Contributing
-   da
+   email me!
 
   ## Tests
-   da
+   run it in the terminal
 
   ## Questions?
    
   Check out my GitHub @ <br>
-  github.com/das
+  github.com/mlcohan
 
   Contact Me: <br>
-   fds
+   mary.cohan@gmail.com

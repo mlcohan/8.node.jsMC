@@ -44,7 +44,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Video
 
+![image](https://user-images.githubusercontent.com/38632935/109258522-4d9c4080-77af-11eb-832d-40a9665fa65f.png)
 
+https://drive.google.com/file/d/1nE_KbxJyb7J8jCklPti153Mv3wt42RRw/view
 
 ## Links
 
