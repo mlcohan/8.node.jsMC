@@ -4,7 +4,7 @@
   ![License](https://img.shields.io/badge/license-apache2.0-blue)
 
   ## Description
-    This app generates a README
+    This app creates a README.md file 
 
 
    ## Table of Contents
@@ -16,10 +16,10 @@
    * [Questions](#questions)
     
   ## Installation
-  node i
+  npm i
 
   ## Usage 
-  use commande line and type node index.js
+  node index.js
 
   ## License
   
@@ -27,15 +27,15 @@
    
 
   ## Contributing
-   email me :)
+   Contact me!
 
   ## Tests
    in the terminal
 
   ## Questions?
    
-  Check out my GitHub @ <br>
+  Check out my GitHub @: <br>
   github.com/mlcohan
 
-  Contact Me: <br>
+  Or Email Me @: <br>
    mary.cohan@gmail.com
